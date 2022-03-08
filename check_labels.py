@@ -1,6 +1,6 @@
 import glob
 import os
-phones = ['br', 'a', 'i', 'u', 'e', 'o', 'N', 'cl', 't', 'd', 's', 'sh', 'j', 'z', 'ts', 'k', 'kw', 'g', 'gw', 'h', 'b', 'p', 'f', 'ch', 'ry', 'ky', 'py', 'dy', 'ty', 'ny', 'hy', 'my', 'gy', 'by', 'n', 'm', 'r', 'w', 'v', 'y', 'pau', 'Edge']
+phones = ['aa', 'ae', 'ah', 'ao', 'ax', 'eh', 'er', 'ih', 'iy', 'uh', 'uw', 'aw', 'ay', 'a', 'ey', 'e', 'ow', 'o', 'oy', 'en', 'em', 'el', 'eng', 'ix', 'p', 'b', 't', 'd', 'k', 'g', 's', 'z', 'ch', 'jh', 'sh', 'zh', 'f', 'v', 'hh', 'th', 'dh', 'n', 'm', 'ng', 'w', 'y', 'r', 'l', 'q', 'dx', 'exh', 'axh', 'ct', 'cl', 'vf']
 
 for file in glob.glob('*.lab'):
     with open(file) as f:
