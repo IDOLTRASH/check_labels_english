@@ -1,3 +1,0 @@
-name=Label to UST
-execute=script.py
-shell=use
